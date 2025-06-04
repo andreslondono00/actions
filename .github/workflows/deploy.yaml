@@ -1,0 +1,10 @@
+name: "Hola Mundo"
+
+on: [push]
+              
+jobs:
+    deploy-actions:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Codificando en GitHub Actions"
+            - run: echo "Publicando version 1.0"
